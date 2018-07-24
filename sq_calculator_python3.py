@@ -2,8 +2,8 @@
 """
 Created on Sun Aug 28 15:52:45 2016
 
-@author: mziffer
-updated to python 3.6 7/20/18 D. Ginger
+@author: mziffer  Mark Ziffer, University of Washington
+updated to python 3.6 7/20/18 David S. Ginger, University of Washington, dginger@uw.edu
 Based on the code of Steve Byrnes (http://sjbyrnes.com/sq.html), but much faster using spline integration
 
 Reference: Shockley, W. & Queisser, H. J. J. Appl. Phys. 32, 510, doi:10.1063/1.1736034 (1961)
@@ -32,7 +32,7 @@ kb_ev = constants.physical_constants['Boltzmann constant in eV/K'][0]
 Tcell = 298 #temperature of solar cell in degrees K
 bandgap = 0.5 #enter bandgap in eV
 
-print ('Tcell = %f', Tcell)
+print ('Tcell = %.3f' %(Tcell))
 
 plot_jv = 'n' #'y' if you want to plot the SQ JV curve for "bandgap"
               #'n' if not (faster)
