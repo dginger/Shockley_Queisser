@@ -2,7 +2,7 @@
 """
 Created on Sun Aug 28 15:52:45 2016
 
-@author: mziffer  Mark Ziffer, University of Washington
+@author: mziffer  Mark Ziffer, University of Washington, mziffer@uw.edu
 updated to python 3.6 7/20/18 David S. Ginger, University of Washington, dginger@uw.edu
 Based on the code of Steve Byrnes (http://sjbyrnes.com/sq.html), but much faster using spline integration
 
