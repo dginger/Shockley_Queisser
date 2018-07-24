@@ -1,0 +1,2 @@
+# Shockley_Queisser
+Shockley_Queisser calculation
